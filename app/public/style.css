@@ -127,7 +127,7 @@ h1 {
     font-size: 25px;
     text-align: center;
     display: block;
-    margin-top: 150px;
+    margin-top: 120px;
     color: lime;
 }
 
@@ -246,6 +246,353 @@ footer {
 #x {
     font-size: 50px;
 }
+
+/************ MEDIA 1200 MEDIA 1200 MEDIA 1200 MEDIA 1200 MEDIA 1200 *******************************/
+
+@media screen and (max-width: 1200px) {
+
+    h1 {
+        font-size: 50px;
+        margin-top: 0;
+    }
+
+    #large-b, #large-first-f, #large-second-f {
+        font-size: 70px;
+    }
+
+    .jumbotron {
+        height: 330px;
+    }
+
+    #pinkPaw {
+        height: 75px;
+        margin-bottom: 48px;
+    }
+
+    #dogButton, #ownerButton {
+        margin: 0 auto;
+        padding: 6px;
+
+    }
+
+    #one, #two, #three {
+        height: 250px;
+        width: 350px;
+    }
+
+    #playful, #affectionate, #smart {
+        top: -80px;
+        font-size: 55px;
+    }
+
+    #playful {
+        left: -300px;
+    }
+
+    #smart {
+        left: 280px;
+    }
+
+    #affectionate {
+        left: -250px;
+    }
+
+    h2 {
+        font-size: 27px;
+    }
+    
+    #secondEndLabel {
+        margin-bottom: 0;
+    }
+    
+    #bottomJumbotron {
+        height: 400px;
+    }
+
+    #two, #three {
+        background-size: 80%;
+    }
+
+}
+
+/************ MEDIA 980 MEDIA 980 MEDIA 980 MEDIA 980 MEDIA 980 *******************************/
+
+@media screen and (max-width: 980px) {
+
+    h1 {
+        font-size: 50px;
+        margin-top: 0;
+    }
+
+    #large-b, #large-first-f, #large-second-f {
+        font-size: 70px;
+    }
+
+    .jumbotron {
+        height: 330px;
+    }
+
+    #pinkPaw {
+        height: 75px;
+        margin-bottom: 48px;
+    }
+
+    #dogButton, #ownerButton {
+        margin: 0 auto;
+        padding: 6px;
+
+    }
+
+    #one, #two, #three {
+        height: 250px;
+        width: 350px;
+    }
+
+    #playful, #affectionate, #smart {
+        top: -80px;
+        font-size: 55px;
+    }
+
+    #playful {
+        left: -300px;
+    }
+
+    #smart {
+        left: 280px;
+    }
+
+    #affectionate {
+        left: -250px;
+    }
+
+    h2 {
+        font-size: 27px;
+    }
+    
+    #secondEndLabel {
+        margin-bottom: 0;
+    }
+    
+    #bottomJumbotron {
+        height: 400px;
+    }
+
+    #two, #three {
+        background-size: 80%;
+    }
+
+}
+
+/************ MEDIA 768 MEDIA 768 MEDIA 768 MEDIA 768 MEDIA 768 *******************************/
+
+@media screen and (max-width: 768px) {
+
+    h1 {
+        font-size: 50px;
+        margin-top: 0;
+    }
+
+    #large-b, #large-first-f, #large-second-f {
+        font-size: 70px;
+    }
+
+    .jumbotron {
+        height: 330px;
+    }
+
+    #pinkPaw {
+        height: 75px;
+        margin-bottom: 48px;
+    }
+
+    #dogButton, #ownerButton {
+        margin: 0 auto;
+        padding: 6px;
+
+    }
+
+    #one, #two, #three {
+        height: 250px;
+        width: 350px;
+    }
+
+    #playful, #affectionate, #smart {
+        top: -80px;
+        font-size: 55px;
+    }
+
+    #playful {
+        left: -300px;
+    }
+
+    #smart {
+        left: 280px;
+    }
+
+    #affectionate {
+        left: -250px;
+    }
+
+    h2 {
+        font-size: 27px;
+    }
+    
+    #secondEndLabel {
+        margin-bottom: 0;
+    }
+    
+    #bottomJumbotron {
+        height: 400px;
+    }
+
+    #two, #three {
+        background-size: 80%;
+    }
+
+}
+
+/************ MEDIA 640 MEDIA 640 MEDIA 640 MEDIA 640 MEDIA 640 *******************************/
+
+@media screen and (max-width: 640px) {
+
+    h1 {
+        font-size: 50px;
+        margin-top: 0;
+    }
+
+    #large-b, #large-first-f, #large-second-f {
+        font-size: 70px;
+    }
+
+    .jumbotron {
+        height: 330px;
+    }
+
+    #pinkPaw {
+        height: 75px;
+        margin-bottom: 48px;
+    }
+
+    #dogButton, #ownerButton {
+        margin: 0 auto;
+        padding: 6px;
+
+    }
+
+    #one, #two, #three {
+        height: 250px;
+        width: 350px;
+    }
+
+    #playful, #affectionate, #smart {
+        top: -80px;
+        font-size: 55px;
+    }
+
+    #playful {
+        left: -300px;
+    }
+
+    #smart {
+        left: 280px;
+    }
+
+    #affectionate {
+        left: -250px;
+    }
+
+    h2 {
+        font-size: 27px;
+    }
+    
+    #secondEndLabel {
+        margin-bottom: 0;
+    }
+    
+    #bottomJumbotron {
+        height: 400px;
+    }
+
+    #two, #three {
+        background-size: 80%;
+    }
+
+}
+
+/************ MEDIA 520 MEDIA 520 MEDIA 520 MEDIA 520 MEDIA 520 *******************************/
+
+@media screen and (max-width: 520px) {
+
+    h1 {
+        font-size: 40px;
+    }
+
+    #large-b, #large-first-f, #large-second-f {
+        font-size: 50px;
+    }
+
+    .jumbotron {
+        height: 300px;
+    }
+
+    #pinkPaw {
+        height: 50px;
+        margin-bottom: 40px;
+    }
+
+    #dogButton, #ownerButton {
+        margin: 0 auto;
+        padding: 4px;
+
+    }
+
+    #one, #two, #three {
+        height: 200px;
+        width: 300px;
+        margin-bottom: 150px;
+    }
+
+    #playful, #affectionate, #smart {
+        top: -70px;
+        font-size: 50px;
+    }
+
+    #playful {
+        left: -140px;
+    }
+
+    #smart {
+        left: 130px;
+    }
+
+    #affectionate {
+        left: -80px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+    
+    #secondEndLabel {
+        margin-bottom: 0;
+    }
+    
+    #bottomJumbotron {
+        height: 400px;
+    }
+
+    #two, #three {
+        background-size: 85%;
+    }
+
+}
+
+
+
+
+
+
+
 
 
 
