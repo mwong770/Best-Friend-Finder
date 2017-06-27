@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title> Best Friend Finder </title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="/style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer:400i" rel="stylesheet">
+
+     <!-- jQuery -->
+    <script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    
+    <!--header jumbotron-->
+    <div class="container">
+        <div class="jumbotron" id="header">
+            <h1> <span id="large-b">B</span>est <span id="large-first-f">F</span>riend <span id="large-second-f">F</span>inder </h1>
+            <br>
+            <img id="pinkPaw" src="/images/pink-paw.png" alt="Logo Paw" >
+            <div id="links">
+                <a href="/"> <button type="button" class="btn btn-lg btn-links" id="homeButton"> <span class="glyphicon glyphicon-home"> </span> Home </button> </a>
+            </div>
+        </div>
+    </div>
+    
+    <!--pet survey-->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-offset-1 col-xs-10">
+                <div class="panel">
+                    <div class="panel-heading" id="surveyTitle"> Dog Survey </div>
+                    <div class="panel-body">
+                        <form>
+                            <div class="form-group">
+                                <label class="questionLabel" for="name">
+                                   Name
+                                </label>
+                                <input type="text" class="form-control" id="name" placeholder="Ex. Dexter">
+                            </div>
+                            <div class="form-group">
+                                <label class="questionLabel" for="photo">
+                                    Photo
+                                </label>
+                                <input type="text" class="form-control" id="photo" placeholder="Image URL">
+                            </div>
+                            <div class="form-group">
+                                <label for="question-1">
+                                    <span class="label surveyLabel"> 1. </span> &nbsp;&nbsp; <span class="questionLabel"> You shed lots of fur. </span>
+                                </label>
+                                <select class="form-control" id="question-1">
+                                    <option disabled selected hidden> Select an option </option>
+                                    <option value="1"> 1 (Strongly Disagree) </option>
+                                    <option value="2"> 2 </option>
+                                    <option value="3"> 3 </option>
+                                    <option value="4"> 4 </option>
+                                    <option value="5"> 5 (Strongly Agree) </option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="question-2">
+                                    <span class="label surveyLabel"> 2. </span> &nbsp;&nbsp; <span class="questionLabel"> You enjoy exercise (long walks, jogging, playing ball). </span>
+                                </label>
+                                <select class="form-control" id="question-2">
+                                    <option disabled selected hidden>Select an option</option>
+                                    <option value="1"> 1 (Strongly Disagree) </option>
+                                    <option value="2"> 2 </option>
+                                    <option value="3"> 3 </option>
+                                    <option value="4"> 4 </option>
+                                    <option value="5"> 5 (Strongly Agree) </option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="question-3"> 
+                                    <span class="label surveyLabel"> 3. </span> &nbsp;&nbsp; <span class="questionLabel"> You drool a lot. </span>
+                                </label>
+                                <select class="form-control" id="question-3">
+                                    <option disabled selected hidden> Select an option </option>
+                                    <option value="1"> 1 (Strongly Disagree) </option>
+                                    <option value="2"> 2 </option>
+                                    <option value="3"> 3 </option>
+                                    <option value="4"> 4 </option>
+                                    <option value="5"> 5 (Strongly Agree) </option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="question-4">
+                                    <span class="label surveyLabel"> 4. </span> &nbsp;&nbsp; <span class="questionLabel"> You enjoy learning new tricks. </span>
+                                </label>
+                                <select class="form-control" id="question-4">
+                                    <option disabled selected hidden> Select an option </option>
+                                    <option value="1"> 1 (Strongly Disagree) </option>
+                                    <option value="2"> 2 </option>
+                                    <option value="3"> 3 </option>
+                                    <option value="4"> 4 </option>
+                                    <option value="5"> 5 (Strongly Agree) </option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label class="questionLable" for="question-5">
+                                    <span class="label surveyLabel"> 5. </span> &nbsp;&nbsp; <span class="questionLabel"> You make a great guard dog. </span>
+                                </label>
+                                <select class="form-control" id="question-5">
+                                    <option disabled selected hidden> Select an option </option>
+                                    <option value="1"> 1 (Strongly Disagree) </option>
+                                    <option value="2"> 2 </option>
+                                    <option value="3"> 3 </option>
+                                    <option value="4"> 4 </option>
+                                    <option value="5"> 5 (Strongly Agree) </option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="question-6">
+                                    <span class="label surveyLabel"> 6. </span> &nbsp;&nbsp; <span class="questionLabel"> You thrive in high energy homes. </span>
+                                </label>
+                                <select class="form-control" id="question-6">
+                                    <option disabled selected hidden> Select an option </option>
+                                    <option value="1"> 1 (Strongly Disagree) </option>
+                                    <option value="2"> 2 </option>
+                                    <option value="3"> 3 </option>
+                                    <option value="4"> 4 </option>
+                                    <option value="5"> 5 (Strongly Agree) </option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="question-7">
+                                    <span class="label surveyLabel"> 7. </span> &nbsp;&nbsp; <span class="questionLabel"> You enjoy following your people friends around. </span>
+                                </label>
+                                <select class="form-control" id="question-7">
+                                    <option disabled selected hidden> Select an option </option>
+                                    <option value="1"> 1 (Strongly Disagree) </option>
+                                    <option value="2"> 2 </option>
+                                    <option value="3"> 3 </option>
+                                    <option value="4"> 4 </option>
+                                    <option value="5"> 5 (Strongly Agree) </option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="question-8">
+                                    <span class="label surveyLabel"> 8. </span> &nbsp;&nbsp; <span class="questionLabel"> You whine to let people know you need something. </span>
+                                </label>
+                                <select class="form-control" id="question-8">
+                                    <option disabled selected hidden> Select an option </option>
+                                    <option value="1"> 1 (Strongly Disagree) </option>
+                                    <option value="2"> 2 </option>
+                                    <option value="3"> 3 </option>
+                                    <option value="4"> 4 </option>
+                                    <option value="5"> 5 (Strongly Agree) </option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="question-9">
+                                    <span class="label surveyLabel"> 9. </span> &nbsp;&nbsp; <span class="questionLabel"> You are a large dog. </span>
+                                </label>
+                                <select class="form-control" id="question-9">
+                                    <option disabled selected hidden> Select an option </option>
+                                    <option value="1"> 1 (Strongly Disagree) </option>
+                                    <option value="2"> 2 </option>
+                                    <option value="3"> 3 </option>
+                                    <option value="4"> 4 </option>
+                                    <option value="5"> 5 (Strongly Agree) </option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="question-10">
+                                    <span class="label surveyLabel"> 10. </span> &nbsp;&nbsp; <span class="questionLabel"> You show you love your people friends by licking them. </span>
+                                </label>
+                                <select class="form-control" id="question-10">
+                                    <option disabled selected hidden> Select an option </option>
+                                    <option value="1"> 1 (Strongly Disagree) </option>
+                                    <option value="2"> 2 </option>
+                                    <option value="3"> 3 </option>
+                                    <option value="4"> 4 </option>
+                                    <option value="5"> 5 (Strongly Agree) </option>
+                                </select>
+                            </div>
+                            <div id="submitDiv">
+                                <!--button triggers modal-->
+                                <button id="submitDogData" type="submit" class="btn btn-links" data-toggle="modal" data-target="#friendModal">&nbsp;&nbsp; <span class="glyphicon glyphicon-user"> </span> Find Your Best Friend &nbsp;&nbsp; </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+   <!--modal-->
+    <div id="friendModal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog"> 
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" id="closeModal"> <span id="x"> &times; </span> </button>
+                    <h2 class="modal-title"> Your New Best Friend </h2>
+                </div>
+                <div class="modal-body">
+                    <h2 id="bestFriendName"> </h2>
+                    <img id="bestFriendImg" src="" alt="best friend photo">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--footer jumbotron-->
+    <div class="container">
+        <div class="jumbotron" id="jumboFooter">
+            <h2 id="secondEndLabel"> Thanks for taking our survey. </h2>
+            <br/>
+            <br/>
+            <img id="pinkPaw" src="/images/pink-paw.png" alt="Logo Paw" height=300px width: 300px>
+            <br/>
+            <footer class="footer">
+                <div class="container">
+                    <span class="bold"> <a href="/api/dog/friends" id="pupLink"> API People Link </a> </span> | 
+                    <span class="bold"> <a href="/api/people/friends" id="peopleLink"> API Dogs Link </a> </span>
+                    <span id="maria"> &copy;Maria Wong </span>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script type="text/javascript" src='/survey.js'></script>
+
+</body>
+
+</html>

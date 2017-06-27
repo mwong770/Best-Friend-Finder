@@ -1,0 +1,254 @@
+/***********************HOME PAGE**********************HOME PAGE****************************/
+
+/*creates parallax scrolling effect*/
+body{
+    background-image: url(images/black-paw.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.jumbotron {
+    background-color: blue;
+    color: white;
+    opacity: .75;
+    height: 500px;
+}
+
+#header {
+    margin-top: 0;
+}
+
+h1 {
+    font-family: 'IM Fell Great Primer', serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+#large-b {
+    font-size: 120px;
+    color: lime;
+}
+
+#large-first-f {
+    font-size: 120px;
+    color: orange;
+}
+
+#large-second-f {
+    font-size: 120px;
+    color: red;
+}
+
+#pinkPaw {
+    height: 100px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+#links {
+    text-align: center;
+}
+
+#dogButton {
+    margin-right: 10px;
+}
+
+#dogButton:hover, #ownerButton:hover, #homeButton:hover {
+    background: orange;
+}
+
+#playful, #affectionate, #smart {
+    font-family: 'IM Fell Great Primer', serif;
+    position: relative;
+    top: 215px;
+    font-size: 60px;
+    display: inline;
+    vertical-align: middle;
+}
+
+#playful {
+    color: orange;
+    left: -435px;
+}
+
+#smart {
+    color: blue;
+    right: -430px;
+}
+
+#affectionate {
+    color: green;
+    left: -500px;
+}
+
+#container-one, #container-three{
+    padding-right: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+#container-two {
+    padding-left: 0;
+    margin-left: 0;
+    width: 100%;
+}
+
+#one, #two, #three {
+    height: 500px;
+    width: 600px;
+    margin-bottom: 200px;
+    display: block;
+}
+
+#one {
+    margin-top: 200px;
+    float: right;
+    background: lime url(images/playful.png) no-repeat;
+    background-size: 140%;
+}
+
+#two {
+    float: left;
+    background: orange url(images/smart.png) no-repeat;
+    background-position: center bottom;
+}
+
+#three {
+    float: right;
+    background: red url(images/affectionate.png) no-repeat;
+    background-position: center bottom;
+}
+
+#scroll {
+    font-size: 25px;
+    text-align: center;
+    display: block;
+    margin-top: 150px;
+    color: lime;
+}
+
+#arrow {
+    margin: 0 auto;
+    display: block;
+    height: 40px;
+    width: auto;
+}
+
+.btn-links {
+    color: #fff;
+    background-color: lime;
+    border: blue solid 1px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+#firstEndLabel, #secondEndLabel {
+    text-align: center;
+    font-family: 'IM Fell Great Primer', serif;
+}
+
+#firstEndLabel {
+    color: red;
+    margin-top: -10px;
+    font-weight: bold;
+}
+
+#secondEndLabel {
+    color: orange;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#pupLink, #peopleLink {
+    color: lime;
+    font-size: 17px;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: -10px;
+}
+
+#maria {
+    display: block;
+    font-size: 15px;
+}
+
+#jumboFooter {
+    height: 400px;
+}
+
+/***********************SURVEY PAGES**********************SURVEY PAGES****************************/
+
+.panel {
+    border: lime solid 2px;
+}
+
+.panel-heading {
+    height: 70px;
+}
+
+#surveyTitle {
+    font-family: 'IM Fell Great Primer', serif;
+    color: magenta;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    background-color: lime;
+}
+
+.surveyLabel {
+    background: magenta;
+}
+
+.questionLabel {
+    color: blue;
+}
+
+#submit {
+    background: lime;
+}
+
+#submitDiv {
+    text-align: center;
+}
+
+#submit:hover {
+    background: magenta;
+}
+
+#bestFriendImg {
+    height: 300px;
+    width: 300px;
+}
+
+.modal-body, .modal-title {
+    text-align: center;
+    font-family: 'IM Fell Great Primer', serif;
+}
+
+.modal-title {
+    color: blue;
+}
+
+.modal-body {
+    color: lime;
+    margin-bottom: 30px;
+}
+
+#x {
+    font-size: 50px;
+}
+
+
+
+
+
+

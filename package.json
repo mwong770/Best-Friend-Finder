@@ -1,0 +1,28 @@
+{
+  "name": "best-friend-finder",
+  "version": "1.0.0",
+  "description": "Node app to match dogs and potential dog owners based on survey results",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwong770/Best-Friend-Finder.git"
+  },
+  "author": "Maria Wong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwong770/Best-Friend-Finder/issues"
+  },
+  "homepage": "https://github.com/mwong770/Best-Friend-Finder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.3",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": "7.4.0"
+  }
+}

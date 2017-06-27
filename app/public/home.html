@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title> Best Friend Finder </title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="/style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer:400i" rel="stylesheet">
+
+     <!-- jQuery -->
+    <script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    
+    <!--header jumbotron-->
+    <div class="container">
+        <div class="jumbotron" id="header">
+            <h1> <span id="large-b">B</span>est <span id="large-first-f"> F</span>riend <span id="large-second-f"> F</span>inder </h1>
+            <br>
+            <img id="pinkPaw" src="/images/pink-paw.png" alt="Logo Paw" >
+            <div id="links">
+                <a href="/pet/survey"> <button type="button" class="btn btn-lg btn-links" id="dogButton"> <span class="glyphicon glyphicon-heart"> </span> Dog Survey </button> </a>
+                <a href="/owner/survey"> <button type="button" class="btn btn-lg btn-links" id="ownerButton"> <span class="glyphicon glyphicon-user"> </span> Future Owner Survey </button> </a>
+            </div>
+        </div>
+    </div>
+    
+    <!--scroll-->
+    <span id="scroll"> Scroll <span> 
+    <img id="arrow" src="/images/arrow.png" alt="arrow" >
+
+    <!--dog photo divs-->
+    <div class="container" id="container-one">
+        <div id="one"> <span id="playful"> Playful </span> </div>
+    </div>
+    <div class="container" id="container-two">
+        <div id="two"> <span id="smart"> Smart </span> </div>
+    </div>
+    <div class="container" id="container-three">
+        <div id="three"> <span id="affectionate"> Affectionate </span> </div>
+    </div>
+
+    <!--footer jumbotron-->
+    <div class="container">
+        <div class="jumbotron">
+            <h2 id="firstEndLabel"> Let us help you or your pet find a compatible friend. </h2>
+            <h2 id="secondEndLabel"> Take our survey to find your new best friend. </h2>
+            <br>
+            <img id="pinkPaw" src="/images/pink-paw.png" alt="Logo Paw" >
+            <div id="links"> 
+                <a href="/pet/survey"> <button type="button" class="btn btn-lg btn-links" id="dogButton"> <span class="glyphicon glyphicon-heart"> </span> Dog Survey </button> </a>
+                <a href="/owner/survey"> <button type="button" class="btn btn-lg btn-links" id="ownerButton"> <span class="glyphicon glyphicon-user"> </span> Future Owner Survey </button> </a>
+            </div>
+            <br/>
+            <footer class="footer">
+                <div class="container">
+                    <span class="bold"> <a href="/api/dog/friends" id="pupLink"> API Dogs Link </a> </span> | 
+                    <span class="bold"> <a href="/api/people/friends" id="peopleLink"> API People Link </a> </span>
+                    <span id="maria"> Copyright &copy;2017 Maria Wong </span>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+</body>
+
+</html>
