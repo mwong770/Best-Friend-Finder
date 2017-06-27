@@ -2,9 +2,7 @@
 
 A Node.js application that matches dogs and potential dog owners based on survey results
 
-
-### Application Link
-	https://frozen-reaches-78764.herokuapp.com
+[Try Out Best Friend Finder](https://pacific-retreat-17056.herokuapp.com/)
 
 
 ## Table of Contents

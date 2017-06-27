@@ -4,9 +4,6 @@ var currentURL = window.location.origin;
 
 //sends post request with survey results
 $("#submitDogData").on("click", function(){
-    console.log("in submit dog data");
-    var test = $('#question-1').val();
-    console.log("test" + test);
 
     if( ($('#name').val().trim() !== "") && ($('#photo').val().trim() !== "") 
         && ($('#question-1').val() !== null) && ($('#question-2').val() !== null)
