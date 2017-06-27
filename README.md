@@ -47,8 +47,8 @@ A Node.js application that matches dogs and potential dog owners based on survey
 
 * Users complete 1 of 2 surveys based on whether they want to adopt a dog or post a dog for adoption
 * A modal is displayed showing the name and picture of the most compatible friend based on the least amount of difference between the users' survey scores and other users' survey scores
-* Click 'Api People Link' to see all potential dog owners
-* Click 'Api Dogs Link' to see all potential dogs
+* Click 'API People Link' to see all potential dog owners
+* Click 'API Dogs Link' to see all potential dogs
 
 
 ## <a name="developer"></a> :bust_in_silhouette: Developer
