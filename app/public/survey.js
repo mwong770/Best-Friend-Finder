@@ -5,12 +5,12 @@ var currentURL = window.location.origin;
 //sends post request with survey results
 $("#submitDogData").on("click", function(){
 
-    if( ($('#name').val().trim() !== "") && ($('#photo').val().trim() !== "") 
-        && ($('#question-1').val() !== null) && ($('#question-2').val() !== null)
-        && ($('#question-3').val() !== null) && ($('#question-4').val() !== null)
-        && ($('#question-5').val() !== null) && ($('#question-6').val() !== null)
-        && ($('#question-7').val() !== null) && ($('#question-8').val() !== null)
-        && ($('#question-9').val() !== null) && ($('#question-10').val() !== null)
+    if( ($("#name").val().trim() !== "") && ($("#photo").val().trim() !== "") 
+        && ($("#question-1").val() !== null) && ($("#question-2").val() !== null)
+        && ($("#question-3").val() !== null) && ($("#question-4").val() !== null)
+        && ($("#question-5").val() !== null) && ($("#question-6").val() !== null)
+        && ($("#question-7").val() !== null) && ($("#question-8").val() !== null)
+        && ($("#question-9").val() !== null) && ($("#question-10").val() !== null)
     ) {
         //creates object for survey info
         var surveyInfo = {
@@ -22,10 +22,10 @@ $("#submitDogData").on("click", function(){
         $.post(currentURL + "/api/dog/friends", surveyInfo, function(data){
           	//displays matching friends's name and photo
           	$("#bestFriendName").text(data.name);
-          	$('#bestFriendImg').attr("src", data.photo);
+          	$("#bestFriendImg").attr("src", data.photo);
 
           	//displays modal
-          	$("#friendModal").modal('toggle');
+          	$("#friendModal").modal("toggle");
           
           	//clears input fields
           	$("#name").val("");
@@ -37,7 +37,7 @@ $("#submitDogData").on("click", function(){
     	  //displays message if data is missing
         $(".modal-title").text("Oops. Some information is missing.");
         $(".modal-body").html("<h2>Please complete the survey and resubmit.</h2>");
-        $("#friendModal").modal('toggle');
+        $("#friendModal").modal("toggle");
 
     }
     return false;
@@ -46,12 +46,12 @@ $("#submitDogData").on("click", function(){
 //sends post request with survey results
 $("#submitPersonData").on("click", function(){
 
-    if ( ($('#name').val().trim() !== "") && ($('#photo').val().trim() !== "") 
-          && ($('#question-1').val() !== null) && ($('#question-2').val() !== null)
-          && ($('#question-3').val() !== null) && ($('#question-4').val() !== null)
-          && ($('#question-5').val() !== null) && ($('#question-6').val() !== null)
-          && ($('#question-7').val() !== null) && ($('#question-8').val() !== null)
-          && ($('#question-9').val() !== null) && ($('#question-10').val() !== null)
+    if ( ($("#name").val().trim() !== "") && ($('#photo').val().trim() !== "") 
+          && ($("#question-1").val() !== null) && ($("#question-2").val() !== null)
+          && ($("#question-3").val() !== null) && ($("#question-4").val() !== null)
+          && ($("#question-5").val() !== null) && ($("#question-6").val() !== null)
+          && ($("#question-7").val() !== null) && ($("#question-8").val() !== null)
+          && ($("#question-9").val() !== null) && ($("#question-10").val() !== null)
       ) {
         //creates object for survey info
         var surveyInfo = {
@@ -65,10 +65,10 @@ $("#submitPersonData").on("click", function(){
 
           //displays matching friends's name and photo
           $("#bestFriendName").text(data.name);
-          $('#bestFriendImg').attr("src", data.photo);
+          $("#bestFriendImg").attr("src", data.photo);
 
           //displays modal
-          $("#friendModal").modal('toggle');
+          $("#friendModal").modal("toggle");
           
           //clears input fields
           $("#name").val("");
@@ -80,14 +80,14 @@ $("#submitPersonData").on("click", function(){
     	  //displays message if data is missing
         $(".modal-title").text("Oops. Some information is missing.");
         $(".modal-body").html("<h2>Please complete the survey and resubmit.</h2>");
-        $("#friendModal").modal('toggle');
+        $("#friendModal").modal("toggle");
 
     }
     return false;
 });
 
 //refreshes page when close modal
-$('.closeModal').on("click", function() {
+$(".closeModal").on("click", function() {
     location.reload();
 });
 

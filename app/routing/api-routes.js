@@ -1,10 +1,10 @@
 //links data files
-var dogFriends = require('../data/dog-friends.js');
-var peopleFriends = require('../data/owner-friends.js');
+var dogFriends = require("../data/dog-friends.js");
+var peopleFriends = require("../data/owner-friends.js");
 
 //npm packages
-var path = require('path');
-var bodyParser = require('body-parser');
+var path = require("path");
+var bodyParser = require("body-parser");
 
 module.exports = function(app){
 
@@ -47,22 +47,22 @@ module.exports = function(app){
 	}
 
 	//displays all possible dog friends
-	app.get('/api/dog/friends', function (req, res) {
+	app.get("/api/dog/friends", function (req, res) {
 		res.json(dogFriends);
 	});
 
 	//displays all possible people friends
-	app.get('/api/people/friends', function (req, res) {
+	app.get("/api/people/friends", function (req, res) {
 		res.json(peopleFriends);
 	});
 
 	//returns best friend results using dog survey results
-	app.post('/api/dog/friends', function (req, res) {
+	app.post("/api/dog/friends", function (req, res) {
 		addData(req, res, dogFriends, peopleFriends);
 	});
 
 	//returns best friend results using future owner survey results
-	app.post('/api/people/friends', function (req, res) {
+	app.post("/api/people/friends", function (req, res) {
 		addData(req, res, peopleFriends, dogFriends);
 	});
 

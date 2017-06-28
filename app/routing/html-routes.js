@@ -1,14 +1,14 @@
 //used to determine path
-var path = require('path');
+var path = require("path");
 
 //sends requested html page
 module.exports = function(app) {
 
-    app.get('/pet/survey', function(req, res) {
+    app.get("/pet/survey", function(req, res) {
         res.sendFile(path.join(__dirname, "..", "public", "pet-survey.html"));
     });
 
-    app.get('/owner/survey', function(req, res) {
+    app.get("/owner/survey", function(req, res) {
         res.sendFile(path.join(__dirname, "..", "public", "owner-survey.html"));
     });
 
