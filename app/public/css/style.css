@@ -2,7 +2,7 @@
 
 /*creates parallax scrolling effect*/
 body{
-    background-image: url(images/black-paw.jpg);
+    background-image: url(../images/black-paw.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -108,19 +108,19 @@ h1 {
 #one {
     margin-top: 200px;
     float: right;
-    background: lime url(images/playful.png) no-repeat;
+    background: lime url(../images/playful.png) no-repeat;
     background-size: 140%;
 }
 
 #two {
     float: left;
-    background: orange url(images/smart.png) no-repeat;
+    background: orange url(../images/smart.png) no-repeat;
     background-position: center bottom;
 }
 
 #three {
     float: right;
-    background: red url(images/affectionate.png) no-repeat;
+    background: red url(../images/affectionate.png) no-repeat;
     background-position: center bottom;
 }
 
