@@ -35,6 +35,8 @@ $("#submitDogData").on("click", function(){
     } 
     else {
     	//displays message if data is missing
+        // $("#closeModal").removeClass('closeModal');
+        // $("#closeModal").addClass('closePetModal');
         $(".modal-title").text("Oops. Some information is missing.");
         $(".modal-body").html("<h2>Please complete the survey and resubmit.</h2>");
         $("#friendModal").modal('toggle');
@@ -77,7 +79,9 @@ $("#submitPersonData").on("click", function(){
         });
     } 
     else {
-    	//displays message if data is missing
+    	  //displays message if data is missing
+        // $("#closeModal").removeClass('closeModal');
+        // $("#closeModal").addClass('closeFriendModal');
         $(".modal-title").text("Oops. Some information is missing.");
         $(".modal-body").html("<h2>Please complete the survey and resubmit.</h2>");
         $("#friendModal").modal('toggle');
@@ -87,8 +91,27 @@ $("#submitPersonData").on("click", function(){
 });
 
 //displays home page when close modal
-$('#closeModal').click(function() {
-    $.get('/',function(req,res){
-       location.replace(res);
-    });
+$('.closeModal').click(function() {
+  location.reload();
+    // $.get(currentURL + 'pet-survey',function(req,res){
+    //    location.replace(res);
+    // });
 });
+
+// $('.closeFriendModal').click(function() {
+//     $("#closeModal").removeClass('closeFriendModal');
+//     $("#closeModal").addClass('closeModal');
+//     location.reload();
+//     $.get(currentURL + '/owner/survey',function(req,res){
+//        location.replace(res);
+//     });
+// });
+
+// $('.closePetModal').click(function() {
+//     $("#closeModal").removeClass('closePetModal');
+//     $("#closeModal").addClass('closeModal');
+//     location.reload();
+    // $.get('pet-survey',function(req,res){
+    //    location.replace(res);
+    // });
+// });
