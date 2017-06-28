@@ -2,7 +2,7 @@
 
 A Node.js application that matches dogs and potential dog owners based on survey results
 
-[Try Out Best Friend Finder](https://best-friend-finder-1.herokuapp.com/)
+[Check Out Best Friend Finder](https://best-friend-finder-1.herokuapp.com/)
 
 
 ## Table of Contents
