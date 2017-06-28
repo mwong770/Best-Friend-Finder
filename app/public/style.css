@@ -13,11 +13,12 @@ body{
     background-color: blue;
     color: white;
     opacity: .75;
-    height: 500px;
+    height: 470px;
 }
 
 #header {
     margin-top: 0;
+    height: ;
 }
 
 h1 {
@@ -127,7 +128,7 @@ h1 {
     font-size: 25px;
     text-align: center;
     display: block;
-    margin-top: 120px;
+    margin-top: 100px;
     color: lime;
 }
 
@@ -157,6 +158,10 @@ h2 {
     color: red;
     margin-top: -10px;
     font-weight: bold;
+}
+
+#bottomJumbotron {
+    height: 520px;
 }
 
 #secondEndLabel {
@@ -250,6 +255,9 @@ footer {
 /************ MEDIA 1200 MEDIA 1200 MEDIA 1200 MEDIA 1200 MEDIA 1200 *******************************/
 
 @media screen and (max-width: 1200px) {
+    #surveyTitle {
+        color: pink;
+    }
 
     h1 {
         font-size: 50px;
@@ -261,7 +269,7 @@ footer {
     }
 
     .jumbotron {
-        height: 330px;
+        height: 350px;
     }
 
     #pinkPaw {
@@ -272,33 +280,19 @@ footer {
     #dogButton, #ownerButton {
         margin: 0 auto;
         padding: 6px;
+    }
 
+    #homeButton {
+        padding: 7px;
     }
 
     #one, #two, #three {
-        height: 250px;
-        width: 350px;
-    }
-
-    #playful, #affectionate, #smart {
-        top: -80px;
-        font-size: 55px;
-    }
-
-    #playful {
-        left: -300px;
-    }
-
-    #smart {
-        left: 280px;
-    }
-
-    #affectionate {
-        left: -250px;
+        height: 420px;
+        width: 520px;
     }
 
     h2 {
-        font-size: 27px;
+        font-size: 35px;
     }
     
     #secondEndLabel {
@@ -306,11 +300,15 @@ footer {
     }
     
     #bottomJumbotron {
-        height: 400px;
+        height: 500px;
     }
 
     #two, #three {
         background-size: 80%;
+    }
+
+    #jumboFooter {
+        height: 350px
     }
 
 }
@@ -319,6 +317,10 @@ footer {
 
 @media screen and (max-width: 980px) {
 
+    #surveyTitle {
+        color: blue;
+    }
+
     h1 {
         font-size: 50px;
         margin-top: 0;
@@ -329,7 +331,7 @@ footer {
     }
 
     .jumbotron {
-        height: 330px;
+        height: 350px;
     }
 
     #pinkPaw {
@@ -344,25 +346,25 @@ footer {
     }
 
     #one, #two, #three {
-        height: 250px;
-        width: 350px;
+        height: 300px;
+        width: 400px;
     }
 
     #playful, #affectionate, #smart {
-        top: -80px;
+        top: 90px;
         font-size: 55px;
     }
 
     #playful {
-        left: -300px;
+        left: -330px;
     }
 
     #smart {
-        left: 280px;
+        left: 320px;
     }
 
     #affectionate {
-        left: -250px;
+        left: -370px;
     }
 
     h2 {
@@ -374,7 +376,7 @@ footer {
     }
     
     #bottomJumbotron {
-        height: 400px;
+        height: 440px;
     }
 
     #two, #three {
@@ -387,38 +389,17 @@ footer {
 
 @media screen and (max-width: 768px) {
 
-    h1 {
-        font-size: 50px;
-        margin-top: 0;
-    }
-
-    #large-b, #large-first-f, #large-second-f {
-        font-size: 70px;
+    #surveyTitle {
+        color: red;
     }
 
     .jumbotron {
         height: 330px;
     }
 
-    #pinkPaw {
-        height: 75px;
-        margin-bottom: 48px;
-    }
-
-    #dogButton, #ownerButton {
-        margin: 0 auto;
-        padding: 6px;
-
-    }
-
     #one, #two, #three {
-        height: 250px;
-        width: 350px;
-    }
-
-    #playful, #affectionate, #smart {
-        top: -80px;
-        font-size: 55px;
+        height: 240px;
+        width: 340px;
     }
 
     #playful {
@@ -430,23 +411,15 @@ footer {
     }
 
     #affectionate {
-        left: -250px;
-    }
-
-    h2 {
-        font-size: 27px;
-    }
-    
-    #secondEndLabel {
-        margin-bottom: 0;
+        left: -320px;
     }
     
     #bottomJumbotron {
         height: 400px;
     }
 
-    #two, #three {
-        background-size: 80%;
+    #jumboFooter {
+        height: 330px
     }
 
 }
@@ -455,66 +428,42 @@ footer {
 
 @media screen and (max-width: 640px) {
 
-    h1 {
-        font-size: 50px;
-        margin-top: 0;
-    }
-
-    #large-b, #large-first-f, #large-second-f {
-        font-size: 70px;
+    #surveyTitle {
+        color: purple;
     }
 
     .jumbotron {
-        height: 330px;
+        height: 300px;
     }
 
     #pinkPaw {
         height: 75px;
-        margin-bottom: 48px;
-    }
-
-    #dogButton, #ownerButton {
-        margin: 0 auto;
-        padding: 6px;
-
-    }
-
-    #one, #two, #three {
-        height: 250px;
-        width: 350px;
+        margin-bottom: 33px;
     }
 
     #playful, #affectionate, #smart {
         top: -80px;
-        font-size: 55px;
+        font-size: 50px;
     }
 
     #playful {
-        left: -300px;
+        left: -240px;
     }
 
     #smart {
-        left: 280px;
+        left: 210px;
     }
 
     #affectionate {
-        left: -250px;
-    }
-
-    h2 {
-        font-size: 27px;
-    }
-    
-    #secondEndLabel {
-        margin-bottom: 0;
+        left: -220px;
     }
     
     #bottomJumbotron {
-        height: 400px;
+        height: 430px;
     }
 
-    #two, #three {
-        background-size: 80%;
+    #jumboFooter {
+        height: 310px
     }
 
 }
@@ -522,6 +471,10 @@ footer {
 /************ MEDIA 520 MEDIA 520 MEDIA 520 MEDIA 520 MEDIA 520 *******************************/
 
 @media screen and (max-width: 520px) {
+
+    #surveyTitle {
+        color: black;
+    }
 
     h1 {
         font-size: 40px;
@@ -535,15 +488,23 @@ footer {
         height: 300px;
     }
 
+    #header {
+        height: 250px;
+    }
+
     #pinkPaw {
         height: 50px;
         margin-bottom: 40px;
     }
 
     #dogButton, #ownerButton {
-        margin: 0 auto;
+        margin: -10px auto 0 auto;
         padding: 4px;
+    }
 
+    #homeButton {
+        margin-top: -10px;
+        padding: 6px;
     }
 
     #one, #two, #three {
@@ -583,6 +544,10 @@ footer {
 
     #two, #three {
         background-size: 85%;
+    }
+
+    #jumboFooter {
+        height: 290px
     }
 
 }

@@ -17,11 +17,15 @@ module.exports = function(app){
 		return difference;
 	}
 
-	//determines best friend based on survey results
-	function findBestFriend(req, res, userArray, friendArray) {
-		//pushes survey data into array
+	//pushes survey data into array
+	function addData(req, res, userArray, friendArray) {
 		var surveyData = req.body;
 		userArray.push(surveyData);
+		findBestFriend(res, userArray, friendArray, surveyData);
+	}
+		
+	//determines best friend based on survey results
+	function findBestFriend(res, userArray, friendArray, surveyData) {
 		//outside loop to not instantiate with each loop
 		var scoreDiff = [];
 		var bestFriend = {};
@@ -54,12 +58,12 @@ module.exports = function(app){
 
 	//returns best friend results using dog survey results
 	app.post('/api/dog/friends', function (req, res) {
-		findBestFriend(req, res, dogFriends, peopleFriends);
+		addData(req, res, dogFriends, peopleFriends);
 	});
 
 	//returns best friend results using future owner survey results
 	app.post('/api/people/friends', function (req, res) {
-		findBestFriend(req, res, peopleFriends, dogFriends);
+		addData(req, res, peopleFriends, dogFriends);
 	});
 
 };//ends module.exports
