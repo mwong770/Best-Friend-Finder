@@ -21,7 +21,6 @@ A Node.js application that matches dogs and potential dog owners based on survey
 ## <a name="technologies-used"></a> :computer: Technologies Used 
  
 * Node.js
-* Express.js
 * Heroku
 * JavaScript
 * jQuery
